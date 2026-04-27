@@ -1,0 +1,38 @@
+# Dependencies
+node_modules
+*/node_modules
+
+# Build output
+dist
+build
+*/dist
+*/build
+
+# Environment variables
+.env
+.env.*
+*/.env
+*/.env.*
+!.env.example
+!*/.env.example
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Temporary uploads/imports
+server/tmp/
+server/tmp/**
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode
